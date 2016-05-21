@@ -5,9 +5,11 @@ from tkinter import ttk
 from tkinter import messagebox
 import queue as queue
 
+#Sets up variables for customization
 global text_color
 global text_bg
 
+#Opens files containg customization options
 text_color = open('Settings\\Theme\\text_color.txt').read()
 text_bg = open('Settings\\Theme\\text_bg.txt').read()
 
